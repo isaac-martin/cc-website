@@ -17,7 +17,7 @@
         <div class="col-5 p-5 m-0 h-minusnav fx-blur-backdrop rounded-bottom-r">
             @php($text_content = get_field('text_content'))
             @if($text_content)
-                <h2 class="col-11 p-0 mb-4"><?php echo $text_content['copy_header']?></h2>
+                <h2 class="col-11 p-0 mb-5 pb-4 border-bottom brd-brand-grey"><?php echo $text_content['copy_header']?></h2>
             @endif
             @if($text_content)
                 <div class="col-11 p-0 m-0"><?php echo $text_content['copy_body']?></div>

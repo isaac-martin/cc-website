@@ -1,11 +1,3 @@
-.banner .nav li {
-  @extend .nav-item;
-}
-
-.banner .nav a {
-  @extend .nav-link;
-}
-
 #site-logo {
   position: fixed;
   z-index: 1000;
@@ -20,4 +12,31 @@
 #menu-home {
   width: auto;
   text-align: center;
+}
+
+.menu-item {
+  margin: 0 0.5rem;
+}
+
+.menu-item a {
+  font-size: 20px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.menu-item a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-item.current-menu-item a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
 }
