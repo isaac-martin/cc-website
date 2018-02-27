@@ -5,3 +5,19 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+#site-logo {
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+}
+
+#site-nav {
+  z-index: 1000;
+  -webkit-backdrop-filter: blur(100px);
+}
+
+#menu-home {
+  width: auto;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+.fx-blur {
+  -webkit-filter: blur(20px);
+  filter: blur(20px);
+}
+
+.fx-blur-backdrop {
+  -webkit-backdrop-filter: blur(150px);
+  backdrop-filter: blur(150px);
+}
+
+.fx-blur-backdrop-w {
+  background-color: rgba(255, 255, 255, 0.25);
+}

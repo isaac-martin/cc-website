@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
+
+@font-face {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+$font-brand: 'Maven Pro', sans-serif;
+$font-brand-reg: 400;
+$font-brand-med: 500;
+$font-brand-bld: 700;
+
+body {
+  font-family: $font-brand;
+  font-weight: $font-brand-reg;
+}
+
+p {
+  margin-bottom: 14px;
+  font-family: $font-brand;
+  font-weight: $font-brand-reg;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+strong {
+  font-weight: $font-brand-med;
+  line-height: 1.2;
+}
