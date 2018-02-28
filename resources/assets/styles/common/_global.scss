@@ -1,6 +1,7 @@
 //Grids
 body {
   overflow: hidden;
+  background-color: #999;
 }
 
 .h-minusnav {
@@ -8,6 +9,22 @@ body {
   max-height: 100vh;
 }
 
-.rounded-bottom-r {
-  border-bottom-right-radius: 5px;
+.d-full {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  bottom: -30px;
+  left: -30px;
+}
+
+hr {
+  border-bottom: 1px solid black;
+}
+
+.container-content-fixed {
+  position: fixed;
+  z-index: 10001;
+  bottom: 78px;
+  left: 0;
+  max-height: calc(50vh - 78px);
 }

@@ -4,6 +4,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+  font-size: 0;
   white-space: nowrap;
   overflow: scroll;
   -webkit-scroll-snap-type: mandatory;
@@ -16,6 +17,7 @@
   -webkit-scroll-snap-coordinate: 50% 50%;
   scroll-snap-coordinate: 50% 50%;
   scroll-snap-align: center;
+  border-right: 2px solid #fff;
 }
 
 .gallery-icon-direction {
@@ -27,4 +29,12 @@
 
 .gallery-icon-direction:hover {
   color: #fff;
+}
+
+.project-title {
+  position: absolute;
+  z-index: 1000000;
+  left: 0;
+  bottom: 88px;
+  font-size: 14px;
 }
