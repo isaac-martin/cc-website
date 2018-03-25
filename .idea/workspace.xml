@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed939fbc-3d3c-4baf-b00e-95a3c8598b01" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/styles/components/_cards.scss" />
-      <change beforePath="$PROJECT_DIR$/.idea/kc-website-v2.iml" afterPath="$PROJECT_DIR$/.idea/kc-website-v2.iml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_fonts.scss" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_fonts.scss" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_fx.scss" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_fx.scss" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/layouts/_gallery.scss" afterPath="$PROJECT_DIR$/resources/assets/styles/layouts/_gallery.scss" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/layouts/_header.scss" afterPath="$PROJECT_DIR$/resources/assets/styles/layouts/_header.scss" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/styles/main.scss" afterPath="$PROJECT_DIR$/resources/assets/styles/main.scss" />
-      <change beforePath="$PROJECT_DIR$/resources/views/archive-kc_portfolio.blade.php" afterPath="$PROJECT_DIR$/resources/views/archive-kc_portfolio.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/single-portfolio.blade.php" afterPath="$PROJECT_DIR$/resources/views/single-kc_portfolio.blade.php" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tpl-page-fullbleed.blade.php" afterPath="$PROJECT_DIR$/resources/views/tpl-page-fullbleed.blade.php" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/styles/layouts/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -151,6 +149,7 @@
         <option value="$PROJECT_DIR$/resources/views/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/single-kc_portfolio.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/styles/layouts/_header.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -227,75 +226,6 @@
               <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -376,12 +306,12 @@
       <workItem from="1521748738021" duration="1483000" />
       <workItem from="1521870185046" duration="106000" />
       <workItem from="1521881121226" duration="11000" />
-      <workItem from="1521956333373" duration="6997000" />
+      <workItem from="1521956333373" duration="7525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48256000" />
+    <option name="totallyTimeSpent" value="48784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1172" height="1050" extended-state="6" />
@@ -525,13 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -845,6 +768,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
