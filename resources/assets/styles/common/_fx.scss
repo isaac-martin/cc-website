@@ -1,6 +1,18 @@
 .fx-blur {
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
+  -webkit-filter: blur(30px);
+  filter: blur(30px);
+  opacity: 0.95;
+}
+
+.fx-bg-blur {
+  -webkit-filter: blur(30px);
+  filter: blur(30px);
+  opacity: 0.5;
+}
+
+.fx-screen-backdrop {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
 }
 
 .fx-blur-backdrop {
@@ -21,6 +33,10 @@
   opacity: 0.25;
 }
 
+.bg-white-75 {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
 .bg-white-50 {
   background-color: rgba(255, 255, 255, 0.5);
 }
@@ -31,4 +47,9 @@
 
 .bg-white-15 {
   background-color: rgba(255, 255, 255, 0.25);
+}
+
+.txt-shadow {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }

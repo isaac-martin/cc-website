@@ -1,12 +1,17 @@
 //Grids
 body {
   overflow: hidden;
-  background-color: #999;
+  background-color: #fff;
+}
+
+.z-1000 {
+  z-index: 1000;
 }
 
 .h-minusnav {
   overflow: scroll;
-  max-height: 100vh;
+  height: 100vh;
+  padding-bottom: 144px !important;
 }
 
 .d-full {
@@ -18,7 +23,13 @@ body {
 }
 
 hr {
-  border-bottom: 1px solid black;
+  border: none;
+  width: 100%;
+  height: 2px;
+  background-image: url("../../images/brd-line.png");
+  background-repeat: repeat-x;
+  background-size: auto 2px;
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.35));
 }
 
 .container-content-fixed {
@@ -27,4 +38,11 @@ hr {
   bottom: 78px;
   left: 0;
   max-height: calc(50vh - 78px);
+}
+
+.rounded,
+.card {
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  border-radius: 6px !important;
 }
