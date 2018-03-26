@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed939fbc-3d3c-4baf-b00e-95a3c8598b01" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/styles/common/_fonts.scss" afterPath="$PROJECT_DIR$/resources/assets/styles/common/_fonts.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/styles/common/_fonts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            <state relative-caret-position="270">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -87,11 +88,11 @@
         <option value="$PROJECT_DIR$/resources/views/archive-kc_portfolio.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/styles/common/_global.scss" />
         <option value="$PROJECT_DIR$/resources/assets/styles/layouts/_gallery.scss" />
-        <option value="$PROJECT_DIR$/resources/assets/styles/common/_fonts.scss" />
         <option value="$PROJECT_DIR$/resources/views/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/single-kc_portfolio.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/styles/layouts/_header.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/resources/assets/styles/common/_fonts.scss" />
       </list>
     </option>
   </component>
@@ -174,6 +175,19 @@
               <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="kc-website-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kc-website-v2" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main.css" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -254,17 +268,18 @@
       <workItem from="1521870185046" duration="106000" />
       <workItem from="1521881121226" duration="11000" />
       <workItem from="1521956333373" duration="8077000" />
-      <workItem from="1522095965237" duration="53000" />
+      <workItem from="1522095965237" duration="180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49389000" />
+    <option name="totallyTimeSpent" value="49516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24880952" sideWeight="0.78819" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24880952" sideWeight="0.78819" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -616,14 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/styles/layouts/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -672,10 +679,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/styles/common/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        <state relative-caret-position="270">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>
