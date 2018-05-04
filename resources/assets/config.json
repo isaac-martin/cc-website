@@ -9,7 +9,7 @@
     ]
   },
   "publicPath": "/wp-content/themes/kc-website-v2",
-  "devUrl": "http://kc-website.local",
+  "devUrl": "http://cc-website.local",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [

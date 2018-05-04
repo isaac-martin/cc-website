@@ -24,7 +24,6 @@
                     <div class="col-12 p-0 m-0">
                         <h1 class="p-0 m-0"><?php echo $text_content['copy_header']?></h1>
                         @if($text_content['add_body_content'])
-                            <hr/>
                         @endif
                     </div>
                 @endif
