@@ -14,7 +14,7 @@
 
     <div class="col-12 pt-5 p-md-0 m-0 h-minusnav">
         @if(get_field('display_text'))
-            <div class="col-12 col-md-7 d-inline-block p-2 p-md-5 m-0 txt-shadow">
+            <div class="col-12 col-md-5 d-inline-block p-2 p-md-5 m-0">
                 {{--@unless(get_field('display_image_effects'))
                     <div class="d-full  fx-blur-backdrop-50 content-bg"></div>
                 @endunless--}}
@@ -38,7 +38,7 @@
         @endif
 
         @if(get_field('display_cards'))
-            <div class="col-12 col-xl-11 p-2 p-md-5 card-columns">
+            <div class="col-12 col-md-6 col-xl-9 p-2 p-md-5 card-columns">
                 @if(have_rows('card_content'))
                     @while(have_rows('card_content')) @php(the_row())
 
