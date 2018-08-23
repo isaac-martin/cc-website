@@ -1,24 +1,19 @@
 {{--
-  Template Name: Page: Full Bleed Image
+  Template Name: Page: Side By Side Image
 --}}
 
 @extends('layouts.app')
 
-@section('content')
+@section('content') 
     @while(have_posts()) @php(the_post())
 
-		<?php $image = get_field('image_background'); ?>
-    <div class="bgi-wrap bg-dark">
-        <div class="d-full bgi-cover @if(get_field('display_image_effects')) fx-bg-blur @endif" style="background-image: url(<?= wp_get_attachment_url($image, 'full') ?>);">&nbsp;</div>
-    </div>
-
+		<?php $image = get_field('image_side'); ?>
+        <div class="container-fluid">
     <div class="col-12 pt-5 p-md-0 m-0 h-minusnav">
+    <div class="scroll-cont">
         @if(get_field('display_text'))
-            <div class="col-12 col-md-5 d-inline-block p-2 p-md-5 m-0">
-                {{--@unless(get_field('display_image_effects'))
-                    <div class="d-full  fx-blur-backdrop-50 content-bg"></div>
-                @endunless--}}
-
+            <div class="col-md-6 d-inline-block p-2 p-md-5 m-0 scroller">
+               
                 @php($text_content = get_field('text_content'))
                 @if($text_content)
                     <div class="col-12 p-0 m-0">
@@ -35,6 +30,13 @@
                 @endif
 
             </div>
+
+                <div class="col-md-6 d-inline-block p-2 p-md-5 m-0">
+               
+              <img src="<?= wp_get_attachment_url($image, 'full') ?>">
+
+           </div>
+
         @endif
 
         @if(get_field('display_cards'))
@@ -56,6 +58,8 @@
                 @endif
             </div>
         @endif
+    </div>
+    </div>
     </div>
 
     @endwhile

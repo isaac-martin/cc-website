@@ -1,7 +1,8 @@
 #site-logo {
   position: fixed;
   z-index: 1000;
-  right: 0;
+  right: 20px;
+  top: 30px;
 }
 
 #site-nav-wrapper {
@@ -17,7 +18,12 @@
   height: 250px;
   background: rgba(255, 255, 255, 0);
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(175%, rgba(255, 255, 255, 1)));
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(255, 255, 255, 0)),
+    color-stop(175%, rgba(255, 255, 255, 1))
+  );
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
   background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
   background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);

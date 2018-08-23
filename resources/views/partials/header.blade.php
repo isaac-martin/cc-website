@@ -1,4 +1,4 @@
-<a id="site-logo" class="pr-3 pt-5 pr-md-5" href="{{ home_url('/') }}"><img src="@asset('/images/cc-logo-k.png')" width="100" height="auto"/></a>
+<a id="site-logo"y href="{{ home_url('/') }}"><img src="@asset('/images/cc-logo.svg')" width="100" height="auto"/></a>
 <div id="site-nav-screen"></div>
 <header class="fixed-bottom d-flex align-items-end p-3 px-md-5 py-md-4" id="site-nav">
     @php($page_template = get_page_template_slug( $post->ID ))

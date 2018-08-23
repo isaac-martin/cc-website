@@ -1,8 +1,14 @@
 export default {
   init() {
-    // JavaScript to be fired on the home page
+    $('.js-home-carousel').owlCarousel({
+      // loop: true,
+      items: 1,
+      // autoplay: true,
+      // autoplayTimeout: 4000,
+      animateOut: 'fadeOut',
+    });
   },
   finalize() {
-    // JavaScript to be fired on the home page, after the init JS
+
   },
 };

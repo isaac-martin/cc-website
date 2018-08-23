@@ -1,3 +1,7 @@
+img {
+  max-width: 100%;
+}
+
 #gallery-wrap {
   position: fixed;
   top: 0;
@@ -17,12 +21,12 @@
   //-webkit-scroll-snap-coordinate: 50% 50%;
   //scroll-snap-coordinate: 50% 50%;
   //scroll-snap-align: center;
-  border-right: 4px solid #fff;
+  // border-right: 4px solid #fff;
 }
 
-.gallery-img:last-child {
-  border: none;
-}
+// .gallery-img:last-child {
+//   border: none;
+// }
 
 .gallery-icon-direction {
   cursor: pointer;
@@ -47,4 +51,9 @@
 
 #project-content {
   white-space: normal;
+}
+
+.port-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
