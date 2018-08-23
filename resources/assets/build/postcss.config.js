@@ -6,7 +6,8 @@ const cssnanoConfig = {
 
 module.exports = ({ file, options }) => {
   return {
-    parser: options.enabled.optimize ? 'postcss-safe-parser' : undefined,
+    // parser: options.enabled.optimize ? 'postcss-safe-parser' : undefined,
+    parser: undefined,
     plugins: {
       cssnano: options.enabled.optimize ? cssnanoConfig : false,
       autoprefixer: true,
