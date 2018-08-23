@@ -6626,10 +6626,10 @@ Router.prototype.loadEvents = function loadEvents () {
 /* WEBPACK VAR INJECTION */(function($) {/* harmony default export */ __webpack_exports__["a"] = ({
   init: function init() {
     $('.js-home-carousel').owlCarousel({
-      // loop: true,
+      loop: true,
       items: 1,
-      // autoplay: true,
-      // autoplayTimeout: 4000,
+      autoplay: true,
+      autoplayTimeout: 4000,
       animateOut: 'fadeOut',
     });
   },
