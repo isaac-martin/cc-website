@@ -6629,7 +6629,7 @@ Router.prototype.loadEvents = function loadEvents () {
       loop: true,
       items: 1,
       autoplay: true,
-      autoplayTimeout: 4000,
+      autoplayTimeout: 3500,
       animateOut: 'fadeOut',
     });
   },

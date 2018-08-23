@@ -4,7 +4,7 @@ export default {
       loop: true,
       items: 1,
       autoplay: true,
-      autoplayTimeout: 4000,
+      autoplayTimeout: 3500,
       animateOut: 'fadeOut',
     });
   },
