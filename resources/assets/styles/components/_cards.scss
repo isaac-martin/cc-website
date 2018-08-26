@@ -1,13 +1,10 @@
-/*
-@include media-breakpoint-only(lg) {
-  .card-columns {
-	column-gap: 1rem;
-  }
-}
-@include media-breakpoint-only(xl) {
-  column-gap: 1rem;
-}
-*/
 .card-columns {
+  column-count: 1;
   column-gap: 1rem;
+}
+
+@include media-breakpoint-up(md) {
+  .card-columns {
+    column-count: 2;
+  }
 }

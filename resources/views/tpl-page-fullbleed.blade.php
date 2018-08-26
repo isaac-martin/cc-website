@@ -38,7 +38,7 @@
         @endif
 
         @if(get_field('display_cards'))
-            <div class="col-12 col-md-6 col-xl-9 p-2 p-md-5 card-columns">
+            <div class="col-md-12 col-xl-9 p-2 p-md-5 card-columns">
                 @if(have_rows('card_content'))
                     @while(have_rows('card_content')) @php(the_row())
 

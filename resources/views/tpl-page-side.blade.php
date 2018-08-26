@@ -10,9 +10,9 @@
 		<?php $image = get_field('image_side'); ?>
         <div class="container-fluid">
     <div class="col-12 pt-5 p-md-0 m-0 h-minusnav">
-    <div class="scroll-cont">
+    <div class="scroll-cont row">
         @if(get_field('display_text'))
-            <div class="col-md-6 d-inline-block p-2 p-md-5 m-0 scroller">
+            <div class="col-12 col-md-6 d-inline-block p-2 p-md-5 m-0 scroller">
                
                 @php($text_content = get_field('text_content'))
                 @if($text_content)
@@ -31,9 +31,9 @@
 
             </div>
 
-                <div class="col-md-6 d-inline-block p-2 p-md-5 m-0">
+                <div class="col-12 col-md-6 d-inline-block p-2 p-md-5 m-0">
                
-              <img src="<?= wp_get_attachment_url($image, 'full') ?>">
+              <img style="padding-right:55px;" src="<?= wp_get_attachment_url($image, 'full') ?>">
 
            </div>
 

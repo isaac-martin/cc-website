@@ -5,13 +5,13 @@ body {
 }
 
 .z-1000 {
-  z-index: 1000;
+  z-index: 999;
 }
 
 .h-minusnav {
   overflow: scroll;
   // height: 100vh;
-  padding-bottom: 144px !important;
+  padding-bottom: 104px !important;
 }
 
 .d-full {
@@ -54,13 +54,18 @@ hr {
 .scroll-cont {
   display: flex;
   overflow: hidden;
-  height: 100vh;
   margin-top: -100px;
   padding-top: 100px;
   position: relative;
   width: 100%;
   backface-visibility: hidden;
   will-change: overflow;
+}
+
+@include media-breakpoint-up(md) {
+  .scroll-cont {
+    max-height: 100vh;
+  }
 }
 
 .scroller {

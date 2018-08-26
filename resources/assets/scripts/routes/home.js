@@ -1,11 +1,15 @@
 export default {
   init() {
-    $('.js-home-carousel').owlCarousel({
-      loop: true,
-      items: 1,
+    $('.js-home-carousel').slick({
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
       autoplay: true,
-      autoplayTimeout: 3500,
-      animateOut: 'fadeOut',
+      autoplaySpeed: 2500,
+      dots: false,
+      arrows: false,
+      fade: true,
+      cssEase: 'linear',
     });
   },
   finalize() {
