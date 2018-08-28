@@ -3,66 +3,18 @@
         <div class="icon-right"></div>
 </div>
 <a id="site-logo" href="{{ home_url('/') }}">
-<!-- Page 1 -->
-<svg x="0" y="0" viewBox="0 0 1787 2331" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-style="display: block;margin-left: auto;margin-right: auto;">
-<defs>
-
-<style type="text/css"><![CDATA[
-
-.g0_1{
-fill: #231F20;
-}
-
-]]></style>
-
-</defs>
-
-<g fill="#231F20" >
-<use xlink:href="#f0_4" transform="matrix(749.9,0,0,749.9,37.2,1030.8)" />
-<use xlink:href="#f0_3" transform="matrix(749.9,0,0,749.9,798,1030.8)" />
-<use xlink:href="#f0_4" transform="matrix(749.9,0,0,749.9,37.2,2037.9)" />
-<use xlink:href="#f0_5" transform="matrix(749.9,0,0,749.9,729.2,2037.9)" />
-<use xlink:href="#f1_3" transform="matrix(346.2,0,0,346.2,1430.4,2037.7)" />
-</g>
-<path d="M168.9,2196.9c0,0,6.1,-8.1,15.3,-8.6c9.2,-.6,36.1,2.5,56.8,2c20.8,-.5,123.6,-1.1,143.5,-2.1c20,-1,60.7,-.1,79.9,0c19.1,.1,56,4.7,81.3,4.1c25.4,-.5,35.4,1.3,54.5,0c20.4,-1.3,89.8,-2,118.2,-2c28.4,0,89.1,1,107.8,2c18.8,1,34.9,5.6,68.7,7.7c33.8,2,180.3,3.5,222.6,2.5c42.2,-1,110.5,-5.1,132,-4.6c21.5,.5,89,0,108.2,0c19.2,0,81.4,1.5,88.3,8.2c6.8,6.6,-8.6,10.5,-23.6,10.9c-17,.6,-29.4,2.8,-46.3,.8c0,0,-52.2,-5.6,-74.5,-5.6c-22.2,0,-51.4,-1.5,-92,1c-40.7,2.5,-96,5.1,-109,5.1c-13.1,0,-130.5,.5,-150.4,-3.1c-20,-3.5,-76.7,-5.1,-93.6,-5.6c-16.9,-.5,-53.9,-8.1,-94.6,-8.1H682.3c-17.6,0,-83.7,3.8,-105.1,3.5c-21.5,-.4,-50.7,-4,-69.9,-4H343.8c-29.9,0,-90.5,1,-112,1.5c-21.5,.5,-65.9,-2.5,-62.9,-5.6Z" class="g0_1" />
-
-<defs>
-<path d="M533,-13C303,-13,92,98,92,472c0,374,211,491,438,491c96,0,190,-20,278,-52V869c-88,34,-180,52,-273,52C327,921,134,822,134,472C134,121,327,26,536,26c90,0,185,17,272,47V32C721,3,625,-13,533,-13Z" 
-id="f0_4"
-transform="scale(0.001,-0.001)" />
-
-<path d="M373,28c116,0,203,58,264,134L332,516C205,445,130,364,130,249C130,125,228,28,373,28ZM344,565c117,68,182,129,182,208c0,73,-39,148,-143,148C293,921,237,856,237,778c0,-63,38,-129,107,-213ZM371,-13C205,-13,89,98,89,252c0,131,87,220,217,295C237,629,196,700,196,779c0,107,76,182,187,182c130,0,184,-92,184,-183C567,669,480,602,368,536L662,199c38,56,64,117,81,168h41C767,304,733,231,689,167L833,0H778L663,133C593,47,497,-13,371,-13Z" 
-id="f0_3"
-transform="scale(0.001,-0.001)" />
-
-<path d="M527,26c274,0,391,154,391,449C918,767,801,921,527,921C251,921,134,767,134,475C134,180,251,26,527,26Zm0,-39C228,-13,92,157,92,475c0,315,136,488,435,488C825,963,959,790,959,475C959,157,825,-13,527,-13Z" 
-id="f0_5"
-transform="scale(0.001,-0.001)" />
-
-<path d="M458,-20C402,-20,356,24,356,81c0,57,46,104,102,104c57,0,104,-47,104,-104C562,24,515,-20,458,-20Z" 
-id="f1_3"
-transform="scale(0.001,-0.001)" />
-
-
-</defs>
-</svg>
-
+<svg width="278.6" height="67.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin-left:auto;margin-right:auto" display="block"><defs><style>text{white-space:pre}path{pointer-events:none}text::-moz-selection{color:transparent;background:rgba(0,106,173,.4)}text::selection{color:transparent;background:rgba(0,106,173,.4)}</style></defs><path d="M0 0v675h2786V0z" fill="#FFF"/><g fill="#050604"><use xlink:href="#f0_4" transform="translate(85.2 465) scale(254.3)"/><use xlink:href="#f0_6" transform="translate(304.3 465) scale(254.3)"/><use xlink:href="#f0_5" transform="translate(568.8 465) scale(254.3)"/><use xlink:href="#f0_5" transform="translate(812.4 465) scale(254.3)"/><use xlink:href="#f0_6" transform="translate(1053.2 465) scale(254.3)"/><use xlink:href="#f0_7" transform="translate(1325.5 465) scale(254.3)"/><use xlink:href="#f0_8" transform="translate(1540.3 465) scale(254.3)"/><use xlink:href="#f0_3" transform="translate(1846.8 465) scale(254.3)"/><use xlink:href="#f0_4" transform="translate(2169.7 465) scale(254.3)"/><use xlink:href="#f0_6" transform="translate(2388.7 465) scale(254.3)"/><use xlink:href="#f1_2" transform="translate(2642 465) scale(117.4)"/></g><text x="85" y="465" dx="0,-3.5,-4.3,6.2,3.5,3.5,3.5,0,-7.8,0,-7.8,-3.5" font-size="388.46" font-family="MavenProLight200-Regular_5" fill="TRANSPARENT">CONNORS &amp; CO</text><text x="2641" y="465" font-size="179.35" font-family="LetterGothicStd_6" fill="TRANSPARENT">.</text><path d="M2198.7 520.1s2.1-2.7 5.2-2.9c3.1-.2 12.3.8 19.3.7 7.1-.2 42.1-.4 48.9-.7 6.8-.4 20.7-.1 27.2 0 6.6 0 19.1 1.5 27.8 1.4 8.6-.2 12 .4 18.5 0 6.9-.5 30.6-.7 40.2-.7 9.8 0 30.4.3 36.8.7 6.4.3 11.9 1.8 23.4 2.6 11.5.7 61.4 1.2 75.8.8 14.4-.3 37.7-1.7 45-1.5 7.3.1 30.3 0 36.9 0 6.5 0 27.7.5 30 2.8 2.4 2.2-2.9 3.5-8 3.7-5.8.2-10 1-15.8.2 0 0-17.8-1.9-25.3-1.9-7.6 0-17.5-.5-31.4.4-13.9.8-32.7 1.7-37.1 1.7-4.5 0-44.5.2-51.3-1-6.8-1.2-26.1-1.8-31.9-1.9-5.7-.2-18.3-2.8-32.2-2.8h-27.1c-6 0-28.5 1.3-35.8 1.2-7.3-.2-17.3-1.4-23.8-1.4h-55.7c-10.2 0-30.9.4-38.2.5-7.3.2-22.4-.8-21.4-1.9z" fill="#050604"/><defs><path d="M533-13C303-13 92 98 92 472s211 491 438 491c96 0 190-20 278-52v-42c-88 34-180 52-273 52-208 0-401-99-401-449 0-351 193-446 402-446 90 0 185 17 272 47V32C721 3 625-13 533-13z" id="f0_4" transform="scale(.001 -.001)"/><path d="M527 26c274 0 391 154 391 449 0 292-117 446-391 446-276 0-393-154-393-446 0-295 117-449 393-449zm0-39C228-13 92 157 92 475c0 315 136 488 435 488 298 0 432-173 432-488 0-318-134-488-432-488z" id="f0_6" transform="scale(.001 -.001)"/><path d="M104 0v947h46L781 66v881h42V0h-45C568 293 358 587 147 880V0z" id="f0_5" transform="scale(.001 -.001)"/><path d="M423 446c177 0 266 93 266 229 0 127-73 233-266 233H147V446zM104 0v947h322c197 0 306-104 306-269 0-174-125-250-235-264L764 0h-49L452 406H147V0z" id="f0_7" transform="scale(.001 -.001)"/><path d="M380-13C260-13 163 12 86 46v46c73-35 169-64 293-64 189 0 286 90 286 212 0 325-570 142-570 477 0 132 90 246 296 246 104 0 193-23 269-57v-43c-73 32-163 58-264 58-171 0-258-84-258-204 0-289 569-115 569-477 0-136-96-253-327-253z" id="f0_8" transform="scale(.001 -.001)"/><path d="M373 28c116 0 203 58 264 134L332 516c-127-71-202-152-202-267 0-124 98-221 243-221zm-29 537c117 68 182 129 182 208 0 73-39 148-143 148-90 0-146-65-146-143 0-63 38-129 107-213zm27-578C205-13 89 98 89 252c0 131 87 220 217 295-69 82-110 153-110 232 0 107 76 182 187 182 130 0 184-92 184-183 0-109-87-176-199-242l294-337c38 56 64 117 81 168h41c-17-63-51-136-95-200L833 0h-55L663 133C593 47 497-13 371-13z" id="f0_3" transform="scale(.001 -.001)"/><path d="M458-20c-56 0-102 44-102 101s46 104 102 104c57 0 104-47 104-104S515-20 458-20z" id="f1_2" transform="scale(.001 -.001)"/></defs><style>@font-face{font-family:MavenProLight200-Regular_5;src:url(&quot;fonts/MavenProLight200-Regular_5.woff&quot;) format(&quot;woff&quot;)}@font-face{font-family:LetterGothicStd_6;src:url(&quot;fonts/LetterGothicStd_6.woff&quot;) format(&quot;woff&quot;)}</style></svg>
 </a>
-<div id="site-nav-screen"></div>
-<header class="fixed-bottom p-3 px-md-5 py-md-4" id="site-nav">
+<!-- <div id="site-nav-screen"></div> -->
+<header class="fixed-top p-3 px-md-5 py-md-4" id="site-nav">
     @php($page_template = get_page_template_slug( $post->ID ))
 
-    @if($page_template == 'views/tpl-layout-gallery.blade.php')
-        <i class="fa fa-caret-left gallery-icon-direction"></i>
-    @endif
-    <div class="mx-auto" id="site-nav-wrapper">
+  
+    <div id="site-nav-wrapper">
         @if (has_nav_menu('primary_navigation'))
             {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
         @endif
     </div>
 
-    @if($page_template == 'views/tpl-layout-gallery.blade.php')
-        <i class="fa fa-caret-right gallery-icon-direction"></i>
-    @endif
+   
 </header>

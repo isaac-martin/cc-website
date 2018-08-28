@@ -48,7 +48,7 @@
                         @endif
                         <div class="card-body">
                             <strong class="card-title mb-1">@php(the_sub_field('card_header'))</strong>
-                            <p class="card-text p-sm">@php(the_sub_field('card_body'))</p>
+                            <p class="card-text">@php(the_sub_field('card_body'))</p>
                         </div>
                     </div>
 

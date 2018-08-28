@@ -14,6 +14,8 @@ export default {
       infinite: true,
       speed: 500,
       arrows: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
       dots: false,
       slidesToShow: 1,
       // centerMode: true,
@@ -23,10 +25,12 @@ export default {
 
     $(".next").click(function () {
       $projSlider.slick("slickNext");
+      $projSlider.slick("slickPause");
     });
 
     $(".prev").click(function () {
       $projSlider.slick("slickPrev");
+      $projSlider.slick("slickPause");
     });
 
   },

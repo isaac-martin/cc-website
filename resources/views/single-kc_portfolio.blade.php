@@ -18,7 +18,7 @@
 				<div class="col-12 p-3 p-md-5 bg-white txt-brand-grey" id="project-content">
 					<h1><?php the_title(); ?></h1>
 					<?php the_field('project_description'); ?>
-					<a style="color: white; background: #333; padding: 10px 20px; border-radius: 4px;" href="/portfolio">← Back to all projects</a>
+					<a style="text-decoration: underline; font-weight: 700; font-size: 18px;" href="/portfolio">← Back to all projects</a>
 				</div>
 			</div>
 		</div>

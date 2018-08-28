@@ -77,7 +77,7 @@
   width: 50%;
   height: 100%;
   z-index: 1;
-  cursor: url('../images/next-cursor.svg'), auto;
+  // cursor: url('../images/next-cursor.svg'), auto;
 
   &::before {
     content: '';
@@ -88,7 +88,7 @@
   width: 50%;
   height: 100%;
   z-index: 1;
-  cursor: url('../images/prev-cursor.svg'), auto;
+  // cursor: url('../images/prev-cursor.svg'), auto;
 
   &::before {
     content: '';

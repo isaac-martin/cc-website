@@ -45,9 +45,19 @@
   display: flex;
   z-index: 1001;
   align-items: flex-end;
+  background: rgba(255, 255, 255, 0.95);
 
   #site-nav-wrapper {
     align-self: flex-end;
+  }
+}
+
+.home,
+.gallery,
+.services,
+.testimonials {
+  #site-nav {
+    background: none;
   }
 }
 
