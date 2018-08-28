@@ -61,7 +61,7 @@
   }
 }
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-down(lg) {
   #site-nav {
     opacity: 0 !important;
     pointer-events: none;
@@ -93,6 +93,7 @@
     #site-nav-wrapper {
       align-self: flex-start;
       height: 100% !important;
+      width: 100%;
     }
   }
 }
