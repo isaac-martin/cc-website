@@ -11,6 +11,7 @@
   "fonts/mavenprolight-300-webfont.svg": "fonts/mavenprolight-300-webfont_389ba113.svg",
   "fonts/mavenprolight-300-webfont.ttf": "fonts/mavenprolight-300-webfont_4f8252b0.ttf",
   "fonts/mavenprolight-300-webfont.woff": "fonts/mavenprolight-300-webfont_f4c97bba.woff",
+  "images/Bowery Valuation Office Manager (1).pdf": "images/Bowery Valuation Office Manager (1)_4d72a3e1.pdf",
   "images/brd-line.png": "images/brd-line_75762fe5.png",
   "images/cc-logo-k.png": "images/cc-logo-k_b8c2ebef.png",
   "images/cc-logo-w.png": "images/cc-logo-w_afe09f05.png",
@@ -27,7 +28,7 @@
   "vendor/fontawesome-webfont.ttf?v=4.7.0": "vendor/fontawesome-webfont_b06871f2.ttf",
   "vendor/fontawesome-webfont.woff2?v=4.7.0": "vendor/fontawesome-webfont_af7ae505.woff2",
   "vendor/fontawesome-webfont.woff?v=4.7.0": "vendor/fontawesome-webfont_fee66e71.woff",
-  "scripts/customizer.js": "scripts/customizer_ab4f161b.js",
-  "styles/main.css": "styles/main_ab4f161b.css",
-  "scripts/main.js": "scripts/main_ab4f161b.js"
+  "scripts/customizer.js": "scripts/customizer_06e9b9b0.js",
+  "styles/main.css": "styles/main_06e9b9b0.css",
+  "scripts/main.js": "scripts/main_06e9b9b0.js"
 }

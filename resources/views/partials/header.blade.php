@@ -1,3 +1,7 @@
+<div class="navIcon js-nav-trigger">
+        <div class="icon-left"></div>
+        <div class="icon-right"></div>
+</div>
 <a id="site-logo" href="{{ home_url('/') }}">
 <!-- Page 1 -->
 <svg x="0" y="0" viewBox="0 0 1787 2331" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -46,13 +50,13 @@ transform="scale(0.001,-0.001)" />
 
 </a>
 <div id="site-nav-screen"></div>
-<header class="fixed-bottom d-flex align-items-end p-3 px-md-5 py-md-4" id="site-nav">
+<header class="fixed-bottom p-3 px-md-5 py-md-4" id="site-nav">
     @php($page_template = get_page_template_slug( $post->ID ))
 
     @if($page_template == 'views/tpl-layout-gallery.blade.php')
         <i class="fa fa-caret-left gallery-icon-direction"></i>
     @endif
-    <div class="mx-auto align-self-end" id="site-nav-wrapper">
+    <div class="mx-auto" id="site-nav-wrapper">
         @if (has_nav_menu('primary_navigation'))
             {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']) !!}
         @endif

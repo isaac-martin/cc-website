@@ -3,6 +3,9 @@ export default {
     // JavaScript to be fired on all pages
   },
   finalize() {
-    // JavaScript to be fired on all pages, after page specific JS is fired
+    $(".js-nav-trigger").click(function () {
+      $(this).toggleClass("open");
+      $('#site-nav').toggleClass("open");
+    });
   },
 };
