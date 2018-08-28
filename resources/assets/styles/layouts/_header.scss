@@ -58,10 +58,14 @@
 .testimonials {
   #site-nav {
     background: none;
+
+    &.open {
+      background: rgba(255, 255, 255, 0.95);
+    }
   }
 }
 
-@include media-breakpoint-down(lg) {
+@include media-breakpoint-down(md) {
   #site-nav {
     opacity: 0 !important;
     pointer-events: none;
@@ -149,7 +153,7 @@
   transition-duration: 0.5s;
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(lg) {
   .navIcon {
     display: none;
   }
