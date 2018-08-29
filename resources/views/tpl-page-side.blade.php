@@ -15,6 +15,10 @@
             <div class="col-12 col-md-6 d-inline-block p-2 p-md-5 m-0 scroller">
                
                 @php($text_content = get_field('text_content'))
+                @php($quote_content = get_field('quote_content'))
+                @php($quote_trigger = get_field('display_quote'))
+
+
                 @if($text_content)
                     <div class="col-12 p-0 m-0">
                         <h1 class="p-0 m-0"><?php echo $text_content['copy_header']?></h1>
@@ -34,6 +38,13 @@
                 <div class="col-12 col-md-6 d-inline-block p-2 p-md-5 m-0">
                
               <img style="padding-right:55px;" src="<?= wp_get_attachment_url($image, 'full') ?>">
+
+                @if($quote_trigger)
+                <h3 class="quote">&ldquo;<?php echo $quote_content['quote_title']?>&rdquo;</h3>
+                <p class="quoteAuth"> — <?php echo $quote_content['quote_author']?></p>
+
+                    
+                @endif
 
            </div>
 

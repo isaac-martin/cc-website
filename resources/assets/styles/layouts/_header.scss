@@ -52,18 +52,18 @@
   }
 }
 
-.home,
-.gallery,
-.services,
-.testimonials {
-  #site-nav {
-    background: none;
+// .home,
+// .gallery,
+// .services,
+// .testimonials {
+//   #site-nav {
+//     background: none;
 
-    &.open {
-      background: rgba(255, 255, 255, 0.95);
-    }
-  }
-}
+//     &.open {
+//       background: rgba(255, 255, 255, 0.95);
+//     }
+//   }
+// }
 
 @include media-breakpoint-down(md) {
   #site-nav {
