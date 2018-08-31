@@ -18,6 +18,7 @@
   "images/cc-logo.svg": "images/cc-logo_6f0b8c83.svg",
   "images/cc-paper-k.png": "images/cc-paper-k_f643cf0a.png",
   "images/cc-spire-k.png": "images/cc-spire-k_83998c12.png",
+  "images/logo.svg": "images/logo_946f9476.svg",
   "images/next-cursor.svg": "images/next-cursor_cce4b665.svg",
   "images/prev-cursor.svg": "images/prev-cursor_cb07e3bd.svg",
   "vendor/ajax-loader.gif": "vendor/ajax-loader_c5cd7f53.gif",
@@ -27,7 +28,7 @@
   "vendor/fontawesome-webfont.ttf?v=4.7.0": "vendor/fontawesome-webfont_b06871f2.ttf",
   "vendor/fontawesome-webfont.woff2?v=4.7.0": "vendor/fontawesome-webfont_af7ae505.woff2",
   "vendor/fontawesome-webfont.woff?v=4.7.0": "vendor/fontawesome-webfont_fee66e71.woff",
-  "scripts/customizer.js": "scripts/customizer_b7b504ab.js",
-  "styles/main.css": "styles/main_b7b504ab.css",
-  "scripts/main.js": "scripts/main_b7b504ab.js"
+  "scripts/customizer.js": "scripts/customizer_1c25f69c.js",
+  "styles/main.css": "styles/main_1c25f69c.css",
+  "scripts/main.js": "scripts/main_1c25f69c.js"
 }

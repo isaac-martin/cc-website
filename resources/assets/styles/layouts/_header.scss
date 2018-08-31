@@ -2,12 +2,12 @@
   position: fixed;
   z-index: 3001;
   right: 20px;
-  top: 20px;
-  width: 60px;
+  top: 28px;
+  width: 200px;
 
   @include media-breakpoint-up(md) {
-    width: 90px;
-    top: 30px;
+    top: 22px;
+    width: 220px;
   }
 
   svg {
